@@ -1,0 +1,75 @@
+{
+  "name": "discover-webpack-advanced",
+  "version": "1.0.0",
+  "description": "Webpack 4.x with lazy loading",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "weight": "node scripts/generate-database.js",
+    "weight:small": "node scripts/generate-database-small.js",
+    "start": "webpack-dev-server --mode development --open",
+    "serve": "node scripts/serve.js",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "babel-core": "6.26.0",
+    "babel-eslint": "7.2.3",
+    "babel-jest": "20.0.3",
+    "babel-loader": "7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-export-default": "^7.0.0-alpha.20",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2017": "^6.14.0",
+    "babel-preset-react": "~6.11.1",
+    "babel-preset-stage-0": "~6.5.0",
+    "babel-runtime": "6.26.0",
+    "css-loader": "^0.28.10",
+    "eslint": "4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-flowtype": "2.39.1",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-vue": "^4.3.0",
+    "express": "^4.16.2",
+    "extract-text-webpack-plugin": "3.0.2",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.7.2",
+    "react": "^16.2.0",
+    "react-dev-utils": "^5.0.0",
+    "react-dom": "^16.2.0",
+    "react-loadable": "^5.3.1",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/friedrith/discover-webpack-advanced.git"
+  },
+  "keywords": [
+    "webpack",
+    "lazy",
+    "loading",
+    "human",
+    "talks"
+  ],
+  "author": "Thibault Friedrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/friedrith/discover-webpack-advanced/issues"
+  },
+  "homepage": "https://github.com/friedrith/discover-webpack-advanced#readme",
+  "devDependencies": {
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.0.6",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^3.1.1"
+  }
+}

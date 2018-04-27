@@ -1,0 +1,4 @@
+dist
+src/database.json
+yarn-error.log
+node_modules
